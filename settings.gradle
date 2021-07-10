@@ -1,0 +1,2 @@
+rootProject.name = "Toast Entered Text"
+include ':app'
