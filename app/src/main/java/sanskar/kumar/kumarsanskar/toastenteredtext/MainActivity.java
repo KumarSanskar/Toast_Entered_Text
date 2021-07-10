@@ -14,5 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        enterText = (EditText) findViewById(R.id.editText);
+        pressHere = (Button) findViewById(R.id.button);
+
     }
 }
