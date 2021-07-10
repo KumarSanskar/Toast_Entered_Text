@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String inputText = enterText.getText().toString();
+                Toast.makeText(MainActivity.this, "The entered text is " + inputText, Toast.LENGTH_SHORT).show();
 
             }
         });
