@@ -30,5 +30,5 @@
         android:layout_marginStart="144dp"
         android:layout_marginLeft="144dp"
         android:layout_marginTop="244dp"
-        android:text="Button" />
+        android:text="Press Here" />
 </RelativeLayout>
