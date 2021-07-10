@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText enterText;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         pressHere.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String inputText = enterText.getText().toString();
 
             }
         });
